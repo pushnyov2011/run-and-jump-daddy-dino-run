@@ -26,9 +26,9 @@ public class gameconroller : MonoBehaviour
     SpriteRenderer fon;
     public int chahesomefting = 70;
     public int a;
-    string adUnitId2 = "ca-app-pub-9974352663449666/8051990771";
+    string adUnitId2 = "";
     private BannerView bannerView2;
-    private const string gameover = "ca-app-pub-9974352663449666/9222242849";
+    private const string gameover = "";
     private InterstitialAd ad;
     public int ads;
 
@@ -42,7 +42,7 @@ public class gameconroller : MonoBehaviour
     }
     void Start()
     {
-        string appId = "ca-app-pub-9974352663449666~7812317627";
+        string appId = "";
         MobileAds.Initialize(appId);
         this.RequestBanner2();
 
